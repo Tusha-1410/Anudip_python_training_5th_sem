@@ -3,8 +3,14 @@ fail_count = 0
 
 # Collect marks for 5 subjects and calculate total and fail count
 for i in range(1, 6):
-    marks = int(input(f"Enter marks of Subject {i}: "))
-    total += marks
+    while True:
+        marks = int(input(f"Enter marks of Subject {i}: "))
+        if 1 <= marks <= 100:
+            total += marks
+            break
+        else:
+            print("Invalid marks! Please enter marks between 1 and 100.")
+    
 
 # Check if the marks are less than 40 to count as a fail
     if marks < 40:
