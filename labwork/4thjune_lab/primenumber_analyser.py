@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num = int(input("Enter a positive number: "))
 
 # Initialize an empty list to store factors
 factors = []
