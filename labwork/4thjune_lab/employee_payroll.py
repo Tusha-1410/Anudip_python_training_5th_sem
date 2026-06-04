@@ -1,5 +1,5 @@
 name = input("Enter Employee Name: ")
-basic_salary = float(input("Enter Basic Salary: ₹"))
+basic_salary = float(input("Enter Basic Salary (positive number): ₹"))
 
 # Calculate HRA, DA, PF, Gross Salary, Net Salary, and Grade
 hra = basic_salary * 0.20
