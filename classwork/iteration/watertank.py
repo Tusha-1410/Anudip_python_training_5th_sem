@@ -1,5 +1,6 @@
 fill_rate = 10
 
+#check if fill_rate is valid(positive)
 if fill_rate > 0:
     water_level = 0
 
