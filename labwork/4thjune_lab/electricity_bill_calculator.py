@@ -1,4 +1,4 @@
-units = int(input("Enter units consumed: "))
+units = int(input("Enter units consumed (positive number): "))
 
 # Calculate the bill based on the given slabs
 if units <= 100:

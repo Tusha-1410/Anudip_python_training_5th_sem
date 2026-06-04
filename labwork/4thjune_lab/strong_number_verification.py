@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num = int(input("Enter a positive number: "))
 
 #store the original number in a temporary variable
 temp = num

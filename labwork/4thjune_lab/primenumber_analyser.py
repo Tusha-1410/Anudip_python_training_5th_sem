@@ -1,9 +1,9 @@
-num = int(input("Enter a number: "))
+num = int(input("Enter a positive number: "))
 
 # Initialize an empty list to store factors
 factors = []
 # Check for factors from 1 to num
-for i in range(1, num + 1):
+for i in range(1, (num//2)+1):
     if num % i == 0:
         factors.append(i)
 

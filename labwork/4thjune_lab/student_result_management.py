@@ -12,6 +12,7 @@ for i in range(1, 6):
             print("Invalid marks! Please enter marks between 1 and 100.")
     
 
+
 # Check if the marks are less than 40 to count as a fail
     if marks < 40:
         fail_count += 1

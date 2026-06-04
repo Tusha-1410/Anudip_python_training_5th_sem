@@ -1,4 +1,4 @@
-rows = int(input("Enter number of rows: "))
+rows = int(input("Enter number of rows (positive number): "))
 
 # Generate the number pyramid
 for i in range(1, rows + 1):
