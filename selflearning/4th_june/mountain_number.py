@@ -1,5 +1,5 @@
 # Read a number from the user
-num = int(input("Enter a number: "))
+num = int(input("Enter a positive number: "))
 
 # Convert the number to a string so we can examine its digits one by one
 num_str = str(num)
