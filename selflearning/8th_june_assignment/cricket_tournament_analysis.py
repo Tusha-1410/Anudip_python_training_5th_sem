@@ -102,7 +102,7 @@ print("\nMaximum Wickets")
 print(wicket_king, players[wicket_king])
 
 # 6. All-Rounders
-
+# Identify players who contributed strongly with both bat and ball.
 print("\nALL-ROUNDERS")
 
 for player in players:
@@ -111,7 +111,7 @@ for player in players:
         print(player, players[player])
 
 # 7. Players Scoring Above Average
-
+# Find batsmen whose run totals exceed the tournament average.
 print("\nABOVE AVERAGE RUN SCORERS")
 
 for player in players:
@@ -120,7 +120,7 @@ for player in players:
         print(player, players[player]["runs"])
 
 # 8. Categories
-
+# Assign a performance category to each player based on runs scored.
 print("\nPLAYER CATEGORIES")
 
 for player in players:
@@ -142,7 +142,7 @@ for player in players:
     print(player, "-", category)
 
 # 9. Team Statistics
-
+# Summarize overall team metrics for runs and wickets.
 total_wickets = 0
 
 for player in players:
@@ -156,7 +156,7 @@ print("Total Wickets =", total_wickets)
 print("Average Runs =", round(average_runs, 2))
 
 # 10. Top 5 Batsmen
-
+# Build a temporary copy to find the top five run scorers without modifying the original data.
 print("\nTOP 5 BATSMEN")
 
 temp_players = {}
@@ -184,7 +184,7 @@ for i in range(5):
     del temp_players[top_batsman]
 
 # 11. Top 5 Bowlers
-
+# Find the top five wicket takers using a temporary copy of player stats.
 print("\nTOP 5 BOWLERS")
 
 temp_players = {}
@@ -212,7 +212,7 @@ for i in range(5):
     del temp_players[top_bowler]
 
 # 12. Award Winners Dictionary
-
+# Collect players who qualify for awards by runs or wickets.
 award_winners = {}
 
 for player in players:
@@ -226,7 +226,7 @@ for player in award_winners:
     print(player, award_winners[player])
 
 # CHALLENGE : Tournament Report
-
+# Print a final summary report for the tournament.
 print("\n========== TOURNAMENT REPORT ==========")
 
 print("Total Players =", len(players))
