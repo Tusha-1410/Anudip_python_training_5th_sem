@@ -1,0 +1,3 @@
+Python is an easy-to-learn programming language.
+It supports multiple programming paradigms.
+File handling allows programs to work with data stored in files.
