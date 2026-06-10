@@ -1,0 +1,3 @@
+Functions help in code reusability.
+File handling enables persistent storage.
+Python provides various modes to work with files.
